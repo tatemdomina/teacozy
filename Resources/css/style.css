@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px
+  padding-left: 10px;
+}
+
+header nav {
+  text-decoration: underline;
+}
+
+.main-image {
+  height: 700px;
+  width: 1200x;
+  background-image: url("../../resources/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 600px;
+}
+
+.main-image span {
+  margin: 0 auto;
+  background-color: black;
+}
+
+.totm {
+
+}
+
+.totm img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  background-image: url("../../resources/img-locations-background.jpg");
+  height: 500px;
+}
+
+.locations span {
+  background-color: black;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+}
