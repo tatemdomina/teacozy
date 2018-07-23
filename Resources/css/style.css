@@ -1,6 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+div {
+  display: block;
+}
+
+h2, h4, h3, h5 {
+  padding-bottom: 15px;
+}
+
+body {
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
@@ -12,34 +23,61 @@
 header {
   position: fixed;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
 }
 
-.logo {
+header img {
   height: 50px
   padding-left: 10px;
 }
 
-header nav {
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
   text-decoration: underline;
+  color: seashell;
+}
+
+.main {
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
 }
 
 .main-image {
   height: 700px;
-  width: 1200x;
   background-image: url("../../resources/img-mission-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 600px;
+  padding-top: 70px;
 }
 
-.main-image span {
-  margin: 0 auto;
+.main-image .main-banner {
+  width: 100%;
   background-color: black;
+  margin-top: 340px;
+  padding: 10px;
 }
 
 .totm {
-
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
 }
 
 .totm img {
@@ -47,16 +85,57 @@ header nav {
   width: 300px;
 }
 
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 3px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
 .locations {
   background-image: url("../../resources/img-locations-background.jpg");
   height: 500px;
+  padding-top: 80px;
 }
 
-.locations span {
+.stores {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spot {
   background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 10px 20px;
+  padding: 10px;
+  flex-basis: 280px
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spot p {
+  margin: 20px auto;
+}
+
+.contact {
+  height: 200px;
 }
 
 footer {
-  text-align: left;
   padding: 20px;
+}
+
+footer p {
+  text-align: left;
 }
