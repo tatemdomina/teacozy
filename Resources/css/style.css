@@ -1,14 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
 div {
   display: block;
 }
 
-h2, h4, h3, h5 {
-  padding-bottom: 15px;
+h2, h4, h3 {
+  padding: 10px;
+  margin: 0px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+h5 {
+  display: block;
+  font-weight: bold;
+  margin: 30px auto;
 }
 
 body {
@@ -69,7 +76,7 @@ a {
 .main-image .main-banner {
   width: 100%;
   background-color: black;
-  margin-top: 340px;
+  margin-top: 300px;
   padding: 10px;
 }
 
@@ -89,6 +96,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .item {
@@ -130,12 +138,19 @@ a {
 
 .contact {
   height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h2 {
+  flex-grow: 1;
+}
+
+.contact h5 {
+  flex-grow: 1;
 }
 
 footer {
-  padding: 20px;
-}
-
-footer p {
+  padding-left: 20px;
   text-align: left;
 }
