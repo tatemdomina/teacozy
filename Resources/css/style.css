@@ -25,6 +25,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 header {
@@ -40,10 +41,10 @@ header {
   background-color: black;
 }
 
-header img {
-  height: 50px
+/*.logo {
+  height: 50px;
   padding-left: 10px;
-}
+}*/
 
 nav {
   text-align: right;
@@ -59,7 +60,7 @@ a {
   text-decoration: underline;
   color: seashell;
 }
-
+/*
 .main {
   opacity: 0.9;
   width: 1200px;
@@ -148,7 +149,7 @@ a {
 
 .contact h5 {
   flex-grow: 1;
-}
+}*/
 
 footer {
   padding-left: 20px;
