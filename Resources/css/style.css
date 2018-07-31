@@ -1,7 +1,7 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  font-family: "Helvetica" sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -13,18 +13,33 @@ body {
 /*start of HEADER section*/
 header {
   height: 69px;
+  width: 100%;
+  background-color: black;
   border-bottom: 1px solid seashell;
   position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  z-index: 1;
+  padding: 0 10px;
 }
 
 .logo {
   height: 50px;
-  padding-left: 10px;
   flex-grow: 1;
+  align-self: center;
+  text-align: left;
 }
 
 nav {
-  text-decoration: underline;
+  align-self: center;
+  border: 1px solid red;
+  align-content: space-around;
+  padding: 10px;
+}
+
+a {
+  color: seashell;
+  margin: 5px;
 }
 /*end of HEADER section*/
 
@@ -37,6 +52,8 @@ nav {
   height: 700px;
   width: 1200px;
   background-image: url("../../Resources/img-mission-background.jpg");
+  position: relative;
+  top: 70px;
 }
 /*end of MISSION section*/
 
@@ -73,6 +90,8 @@ nav {
 
 .contact {
   height: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
