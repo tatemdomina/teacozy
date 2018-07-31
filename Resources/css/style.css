@@ -20,6 +20,7 @@ header {
 .logo {
   height: 50px;
   padding-left: 10px;
+  flex-grow: 1;
 }
 
 nav {
@@ -27,11 +28,9 @@ nav {
 }
 /*end of HEADER section*/
 
-
 .flex-container {
   display: flex;
 }
-
 
 /*start of MISSION section*/
 .mission {
@@ -47,11 +46,11 @@ nav {
   width: 1000px;
 }
 
-.products {
-
+.product {
+  flex-direction: row wrap;
 }
 
-.products img {
+.product img {
   height: 200px;
   width: 300px;
   padding-bottom: 10px;
@@ -65,7 +64,7 @@ nav {
   flex-flow: row wrap;
   }
 
-.stores {
+.store {
   background-color: black;
   opacity: 1;
   width: 300px;
