@@ -10,7 +10,7 @@ body {
 }
 
 
-/*start of HEADER section*/
+          /* HEADER section */
 header {
   height: 69px;
   width: 100%;
@@ -41,24 +41,28 @@ a {
   color: seashell;
   margin: 5px;
 }
-/*end of HEADER section*/
 
-.flex-container {
-  display: flex;
-}
 
-/*start of MISSION section*/
-.mission {
+            /* MISSION section */
+#mission {
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
   background-image: url("../../Resources/img-mission-background.jpg");
+  display: flex;
   position: relative;
   top: 70px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-/*end of MISSION section*/
 
+.content {
+  background-color: black;
+  width: 1200px;
+}
 
-/*start of TOTM section*/
+        /* TOTM section */
 .totm {
   width: 1000px;
 }
@@ -72,10 +76,8 @@ a {
   width: 300px;
   padding-bottom: 10px;
 }
-/*end of TOTM section*/
 
-
-/*start of LOCATIONS section*/
+        /* LOCATIONS section */
 .locations {
   background-image: url("../../Resources/img-locations-background.jpg");
   flex-flow: row wrap;
@@ -86,8 +88,8 @@ a {
   opacity: 1;
   width: 300px;
 }
-/*end of LOCATIONS section*/
 
+        /* CONTACT section */
 .contact {
   height: 200px;
   display: flex;
