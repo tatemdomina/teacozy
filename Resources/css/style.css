@@ -32,9 +32,8 @@ header {
 
 nav {
   align-self: center;
-  border: 1px solid red;
   align-content: space-around;
-  padding: 10px;
+  padding: 15px;
 }
 
 a {
@@ -67,7 +66,7 @@ a {
   width: 1000px;
 }
 
-.product {
+.container {
   flex-direction: row wrap;
 }
 
