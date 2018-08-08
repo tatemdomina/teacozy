@@ -64,7 +64,16 @@ a {
 
 .missioncontent {
   background-color: black;
-  width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.missioncontent h2 {
+  margin: 10px auto 20px auto;
+}
+
+.missioncontent h4 {
+  margin: 10px auto;
 }
 
         /* TOTM section */
