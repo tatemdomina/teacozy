@@ -131,10 +131,8 @@ a {
 
 
         /* CONTACT section */
-.contact {
+#contact {
   height: 200px;
-  display: flex;
-  flex-direction: column;
 }
 
 footer {
