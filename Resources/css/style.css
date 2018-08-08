@@ -76,6 +76,7 @@ a {
   margin: 10px auto;
 }
 
+
         /* TOTM section */
 #totm {
   width: 1000px;
@@ -86,7 +87,7 @@ a {
 }
 
 .totmcontent {
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 .products {
@@ -97,7 +98,7 @@ a {
 
 .product {
   width: 300px;
-  margin: 15px;
+  margin: 10px;
 }
 
 .product img {
@@ -109,24 +110,27 @@ a {
 #locations {
   background-image: url("../../Resources/img-locations-background.jpg");
   height: 550px;
-  width: 1200px;
-  margin: auto;
   padding-top: 20px;
 }
 
 #locations h2 {
+  margin-top: 60px;
   margin-bottom: 15px;
 }
 
 .store {
   opacity: 1;
-  padding: 10px;
-  margin: 5px 20px;
+  padding: 0;
+  margin: 0 20px;
   background-color: black;
   flex-basis: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.store p {
+  margin: 5px auto 36px auto;
 }
 
 
