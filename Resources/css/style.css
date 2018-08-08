@@ -41,6 +41,12 @@ a {
   margin: 5px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
             /* MISSION section */
 #mission {
@@ -62,22 +68,31 @@ a {
 }
 
         /* TOTM section */
-.totm {
+#totm {
   width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px auto 60px auto;
 }
 
-.container {
-
+.totmcontent {
+  margin-bottom: 40px;
 }
 
 .products {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  margin: 15px;
 }
 
 .product img {
   height: 200px;
-  width: 300px;
   padding-bottom: 10px;
 }
 
