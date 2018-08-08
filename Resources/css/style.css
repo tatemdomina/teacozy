@@ -56,7 +56,7 @@ a {
   justify-content: center;
 }
 
-.content {
+.missioncontent {
   background-color: black;
   width: 1200px;
 }
@@ -67,7 +67,12 @@ a {
 }
 
 .container {
-  flex-direction: row wrap;
+
+}
+
+.products {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .product img {
