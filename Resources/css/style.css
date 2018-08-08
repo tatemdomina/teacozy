@@ -106,16 +106,25 @@ a {
 }
 
         /* LOCATIONS section */
-.locations {
+#locations {
   background-image: url("../../Resources/img-locations-background.jpg");
-  flex-flow: row wrap;
-  }
+  height: 550px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+}
 
 .store {
-  background-color: black;
   opacity: 1;
-  width: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
         /* CONTACT section */
 .contact {
